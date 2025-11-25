@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 4.0)
+project(C C)
+
+set(CMAKE_C_STANDARD 23)
+
+add_executable(C main.c
+        DynamicArray.h
+        DynamicArray.c)
